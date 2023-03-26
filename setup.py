@@ -1,7 +1,7 @@
 from setuptools import setup , find_packages
 from typing import List
 
-
+##conda activate ./envs to activate the specified the conda environment
 HYPEN_E_DOT = '-e .'
 def get_requirements(file_path:str)->List[str]:
     """
@@ -26,4 +26,3 @@ setup(
     install_requires = get_requirements('requirements.txt')
 )
 
-    

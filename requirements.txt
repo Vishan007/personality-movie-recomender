@@ -7,4 +7,4 @@ seaborn
 dill
 tqdm
 streamlit
--e .
+#-e .
